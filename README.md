@@ -1,6 +1,6 @@
 # React Boilerplate
 
-React, AirBnB ESLint, Prettier, Storybook, Husky
+React, AirBnB ESLint, Prettier, Husky
 
 See `package.json` for `npm` scripts.
 
