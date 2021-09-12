@@ -2,13 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const MainStructure = ({ className }) => {
-  return (
-    <div className={className}>
-      <h1>Your application goes here</h1>
-    </div>
-  );
-};
+const MainStructure = ({ className }) => (
+  <div className={className}>
+    <h1>Your application goes here</h1>
+  </div>
+);
 
 const Main = styled(MainStructure)`
   /* None of these styles are essential for your application. Go ahead. Destroy them. */
